@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sakan</title>
+<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/all.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <div id="mainHeader">
+            <div class="navigationDiv">
+<!-- upper bar start-->
+                <header class="upper-bar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 row">
+                                <div class="col-6 col-sm-12 col-md-auto text-center">
+                                    <a href="#">
+                                        <i class="fas fa-phone"></i>
+                                        <span>+&nbsp;(010)&nbsp;221&nbsp;918&nbsp;811</span>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-12 col-md-auto text-center">
+                                    <a href="#">
+                                        <i class="fas fa-envelope"></i>
+                                        <span>info@example.com</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="social" class="col-12 col-sm-6">
+                                <div class="float-right col-6 col-sm-12 col-md-7 text-center">
+                                    <a href="#" data-toggle="modal" data-target="#loginPage">
+                                        <i class="fas fa-user"></i>
+                                        <span>Login</span>
+                                    </a>
+                                    <a href="#" data-toggle="modal" data-target="#registerPage">
+                                        <i class="fas fa-key"></i>
+                                        <span>Register</span>
+                                    </a>
+                                </div>
+                                <div class="float-right col-6 col-sm-12 col-md-5 text-center">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+<!-- nav. bar start -->
+                <div class="container mainNav">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="#">
+                            <span id="title">sakan</span>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navWords collapse navbar-collapse" id="navbarSupportedContent" style>
+                            <ul class="navbar-nav ml-auto">
+                                <li class="navLink nav-item active">
+                                    <a class=" nav-link" href="sakan.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="navLink nav-item">
+                                    <a class="nav-link" href="about-us.html">about us</a>
+                                </li>
+                                <li class="navLink nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    site content
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#services">services</a>
+                                        <a class="dropdown-item" href="#pricing">pricing</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#clients">clients</a>
+                                        <a class="dropdown-item" href="agents.html">our agents</a>
+                                    </div>
+                                </li>
+                                <li class="navLink nav-item">
+                                    <a class="nav-link" href="portfolio.html">portfolio</a>
+                                </li>
+                                <li class="navLink nav-item">
+                                    <a class="nav-link" href="contact-us.html">contact us</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="intro">
+                <h1>Perfect Property</h1>
+                <h2>FOR YOUR HOME</h2>
+                <p> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                <a href="#"><button type="button" class="btn btn-danger">know more</button></a>
+            </div>
+        </div>
+<!-- login & register start -->
+<!-- login-->
+        <div id="login">
+            <div class="modal fade" id="loginPage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="text-center">Login Now</h4>
+                            <form>
+                                <label>Username</label>
+                                <input type="text">
+                                <label>Password</label>
+                                <input type="password">
+                                <button type="button" class="btn btn-danger">Login</button>
+                            </form>
+                            <p><a href="#" class="text-center">Forgot your password?</a></p>
+                            <p>Don't have an account?<a href="#">Create one now</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Register-->
+        <div id="register">
+            <div class="modal fade" id="registerPage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="text-center">Login Now</h4>
+                            <form>
+                                <label>First Name</label>
+                                <input type="text">
+                                <label>Last Name</label>
+                                <input type="text">
+                                <label>Password</label>
+                                <input type="password">
+                                <label>Confirm Password</label>
+                                <input type="password">
+                                <button type="button" class="btn btn-danger">Register</button>
+                            </form>
+                            <p><a href="#">By clicking Register, I agree to your terms</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- selector start here -->
+        <div id="selector">
+            <h2>find your property</h2>
+            <div class="container">
+                <form action="#" method="POST">
+                    <div class="row">
+                        <div class="col-6 col-sm-3">
+                            <h5>select city</h5>
+                            <select class="sel" required>
+                                <option>city 1</option>
+                                <option>city 2</option>
+                                <option>city 3</option>
+                                <option>city 4</option>
+                                <option>city 5</option>
+                                <option>city 6</option>
+                            </select>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <h5>select area</h5>
+                            <select class="sel" required>
+                                <option>area 1</option>
+                                <option>area 2</option>
+                                <option>area 3</option>
+                                <option>area 4</option>
+                                <option>area 5</option>
+                                <option>area 6</option>
+                            </select>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <h5 class="selProperty">select property</h5>
+                            <select class="sel" required>
+                                <option>villa</option>
+                                <option>Apartment for rent</option>
+                                <option>Owned Apartment</option>
+                                <option>house</option>
+                                <option>shop</option>
+                            </select>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <button type="button" class="btn btn-danger SearchBtn">search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+<!-- selector end here -->
+<!-- example division start -->
+        <div id="exampleDivision" class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-4 col-12"></div>
+                <div class="exContent col-lg-6 col-md-8 col-12">
+                    <h2>A Beautiful Beach House</h2>
+                    <h5>Home sweet home</h5>
+                    <p>Here is your short paragraph on my sweet home: There is no other better place in the world, than being in the comfort of our homes. Home is where we learn the first lessons in life. The unity, love, togetherness all comes from a home.</p>
+                    <ul>
+                        <li>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="fas fa-hand-point-right"></i>
+                                </div>
+                                <div class="col-10">The whole thing aperiamet the master-builder of human happiness explain human happiness.</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="fas fa-hand-point-right"></i>
+                                </div>
+                                <div class="col-10">A happy Architect The whole thing aperiamet the master-builder of human happiness sufficient.</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="fas fa-hand-point-right"></i>
+                                </div>
+                                <div class="col-10">The whole thing aperiamet called to explain the master-builder of human happiness sufficient.</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!-- example division end -->
+<!-- Services division start-->
+        <div id="services">
+            <div class="text-center">
+                <h2>Our Services</h2>
+                <p>Some words about our property services</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 row">
+                        <span class="col-2"><i class="fas fa-key"></i></span>
+                        <div class="col-10">
+                            <h3>Renting Service</h3>
+                            <p>Consectetur adipisicing elit. Ab aut dignissimos ea est, laboriosam consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 row">
+                        <span class="col-2"><i class="far fa-money-bill-alt"></i></span>
+                        <div class="col-10">
+                            <h3>Property Management</h3>
+                            <p>Consectetur adipisicing elit. Ab aut dignissimos ea est, laboriosam consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 row">
+                        <span class="col-2"><i class="fas fa-user-secret"></i></span>
+                        <div class="col-10">
+                            <h3>Saling Service</h3>
+                            <p>Consectetur adipisicing elit. Ab aut dignissimos ea est, laboriosam consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 row">
+                        <span class="col-2"><i class="far fa-building"></i></span>
+                        <div class="col-10">
+                            <h3>Property Listing</h3>
+                            <p>Consectetur adipisicing elit. Ab aut dignissimos ea est, laboriosam consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 row">
+                        <span class="col-2"><i class="fas fa-clipboard-list"></i></span>
+                        <div class="col-10">
+                            <h3>Non Stop Security</h3>
+                            <p>Consectetur adipisicing elit. Ab aut dignissimos ea est, laboriosam consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 row">
+                        <span class="col-2"><i class="fas fa-wrench"></i></span>
+                        <div class="col-10">
+                            <h3>Luxurious Fittings</h3>
+                            <p>Consectetur adipisicing elit. Ab aut dignissimos ea est, laboriosam consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Services division end -->
+<!-- pricing division start-->
+        <div id="pricing" class="text-center">
+            <div class="cardHead">
+                <h2>Our Pricing</h2>
+                <p>A few word about our Plans</p>
+            </div>
+            <div class="container-fluid cards">
+                <div class="row">
+                    <!--<div class=" card-deck">-->
+                    <!--first card-->
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="cardImg">
+                                <img src="assets/images/bg3.jpg" class="card-img-top" alt="card image">
+                                <h4>Starter</h4>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">$ 789.00</h5>
+                                <p class="card-text">per month</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Advertising</li>
+                                <li class="list-group-item">Branding Services</li>
+                                <li class="list-group-item">Online Marketing</li>
+                                <li class="list-group-item">Creative Marketing</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link"><button type="button" class="btn btn-dark"><i class="far fa-user">&nbsp;&nbsp;</i>Get start</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--second card-->
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="cardImg">
+                                <img src="assets/images/bg3.jpg" class="card-img-top" alt="card image">
+                                <h4>professional</h4>
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">$ 1089.00</h5>
+                            <p class="card-text">per month</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Advertising</li>
+                                <li class="list-group-item">Branding Services</li>
+                                <li class="list-group-item">Online Marketing</li>
+                                <li class="list-group-item">Creative Marketing</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link"><button type="button" class="btn btn-dark"><i class="far fa-user">&nbsp;&nbsp;</i>Get start</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--third card-->
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="cardImg">
+                                <img src="assets/images/bg3.jpg" class="card-img-top" alt="card image">
+                                <h4>Enter price</h4>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">$ 2189.00</h5>
+                                <p class="card-text">per month</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Advertising</li>
+                                <li class="list-group-item">Branding Services</li>
+                                <li class="list-group-item">Online Marketing</li>
+                                <li class="list-group-item">Creative Marketing</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link"><button type="button" class="btn btn-dark"><i class="far fa-user">&nbsp;&nbsp;</i>Get start</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--pricing division end-->
+<!--ad division start-->
+        <div id="ad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="text-center">
+                            <h2>Sell Your Best House</h2>
+                            <p>Some words about our property</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <span><i class="fas fa-bed"></i></span>
+                                <p class="num">0</p>
+                                <p>Bedroom</p>
+                            </div>
+                            <div class="col-4">
+                                <span><i class="fas fa-bath"></i></span>
+                                <p class="num">0</p>
+                                <p>Bathroom</p>
+                            </div>
+                            <div class="col-4">
+                                <span><i class="fas fa-car"></i></span>
+                                <p class="num">0</p>
+                                <p>Car Parking</p>
+                            </div>
+                        </div>
+                        <p>Cras sagittis mi sit amet malesuada mollis. Mauris porroinit consectetur cursus tortor vel interdum. Suspendisse interdum velit vel qu dapibus condimentum. Pellentesque consequat.</p>
+                    </div>
+                    <div class="col-12 col-md-6 middl">
+                        <img src="assets/images/middle.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--rating division start-->
+        <div id="rating">
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>What Clients Say</h2>
+                        <p>A few word about our Clients</p>
+                    </div>
+                    <div class="col-12 carouselSection">
+                        <div id="ratingCarouselCaptions" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#ratingCarouselCaptions" data-slide-to="0" class="active"></li>
+                                <li data-target="#ratingCarouselCaptions" data-slide-to="1"></li>
+                                <li data-target="#ratingCarouselCaptions" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <!--first slide-->
+                                    <div class="carousel-caption d-none d-block">
+                                        <p>"In fact, when he had nothing to offer any hindrance to minuslibero at the time, that which is not interfered with by it were not so we may be able, for the time when he had nothing to offer any hindrance to minuslibero, it is us the option of choosing and when not interfered with by all the pleasure and they are independent".</p>
+                                        <ul class="stars">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <section class="client">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <img src="assets/images/te1.jpg" alt="client 1">
+                                                </div>
+                                                <div class="col-6 clientInfo">
+                                                    <h4>Hamada Elhamady</h4>
+                                                    <p>Tempore Quo</p>
+                                            </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                                <!--second slide-->
+                                <div class="carousel-item">
+                                    <div class="carousel-caption d-none d-block">
+                                        <p>"In fact, when he had nothing to offer any hindrance to minuslibero at the time, that which is not interfered with by it were not so we may be able, for the time when he had nothing to offer any hindrance to minuslibero, it is us the option of choosing and when not interfered with by all the pleasure and they are independent".</p>
+                                        <ul class="stars">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <section class="client ">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <img src="assets/images/te2.jpg" alt="client 1">
+                                                </div>
+                                                <div class="col-6 clientInfo">
+                                                    <h4>Hamadaya Elhamdon</h4>
+                                                    <p>Tempore Quo</p>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                                <!--third slide-->
+                                <div class="carousel-item">
+                                    <div class="carousel-caption d-none d-block">
+                                        <p>"In fact, when he had nothing to offer any hindrance to minuslibero at the time, that which is not interfered with by it were not so we may be able, for the time when he had nothing to offer any hindrance to minuslibero, it is us the option of choosing and when not interfered with by all the pleasure and they are independent".</p>
+                                        <ul class="stars">
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <section class="client">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <img src="assets/images/te3.jpg" alt="client 1">
+                                                </div>
+                                                <div class="col-6 clientInfo">
+                                                    <h4>Hamada Elhamaad</h4>
+                                                    <p>Tempore Quo</p>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--rating division end-->
+<!--main footer start-->
+        <footer id="mainFooter">
+            <div class="footerHead text-center">
+                <img src="assets/images/bg3.jpg" class="footerImage" alt="footer image">
+                <h2>Select Your Dream Property</h2>
+                <h4>Contact Us</h4>
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div id="ftrContacts">
+                <div class="container">
+                    <div class="row">
+                        <section class="col-12 col-md-4 row">
+                            <span class="col-2 cntIcon"><i class="far fa-envelope"></i></span>
+                            <div class="col-10 contactDetails">
+                                <h4>EMAIL</h4>
+                                <ul>
+                                    <li>mail.1@example.com</li>
+                                    <li>mail.2@example.com</li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="col-12 col-md-4 row">
+                            <span class="col-2 cntIcon"><i class="fas fa-mobile-alt"></i></span>
+                            <div class="col-10 contactDetails">
+                                <h4>CALL US</h4>
+                                <ul>
+                                    <li>+1 234 567 8901</li>
+                                    <li>+1 234 567 8911</li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="col-12 col-md-4 row">
+                            <span class="col-2 cntIcon"><i class="far fa-map"></i></span>
+                            <div class="col-10 contactDetails">
+                                <h4>ADDRESS</h4>
+                                <ul>
+                                    <li>786 Main Road, hollies <br>California, USA</li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        <!--social links-->
+        <div class="socialLinks container-fluid text-center">
+            <div class="row">
+                <div class="col-12">
+                    <ul>
+                        <li><a href="#" class="rounded-circle"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="rounded-circle"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="#" class="rounded-circle"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="rounded-circle"><i class="fab fa-dribbble"></i></a></li>
+                        <li><a href="#" class="rounded-circle"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#" class="rounded-circle"><i class="fab fa-behance"></i></a></li>
+                        <li><a href="#" class="rounded-circle"><i class="fab fa-vimeo-v"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--copyright-->
+        <div class="copyRight text-center">
+            <p>© 2021 District. All rights reserved | Design by <span>ELHAMADAT</span></p>
+        </div>
+        </footer>
+<!--main footer end-->
+<!--scroll to top button-->
+        <span id="scrollToTop"><a href="#" class="text-decoration-none"><i class="fas fa-angle-double-up"></i></a></span>
+<!-- JS here -->
+
+        <script src="assets/js/jquery-3.5.1.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
